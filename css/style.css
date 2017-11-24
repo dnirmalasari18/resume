@@ -1,0 +1,40 @@
+html { 
+  background: url(../image/background.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.content {
+	background-color: rgba(0, 0, 0, 0.7);
+	color: #ffffff;
+	padding: 50px;
+	height: 500px;
+	width: 500px;
+	margin: 0 auto;
+	font-family: sans-serif, "FontAwesome";
+}
+
+.profil div{
+	float: left;
+}
+
+.profile_pic {
+	margin: 20px;
+	margin-top: 50px;
+	height: 165px;
+	width: 165px;
+	border-radius: 30%;
+}
+
+.resume div{
+	float : left;
+}
+
+.logonlc {
+	margin: 40px;
+	margin-top: 70px; 
+	max-height: 150px;
+	max-width: 150px;
+}
