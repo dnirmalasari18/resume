@@ -1,5 +1,5 @@
 html { 
-  background: url(../image/background.jpg) no-repeat center center fixed; 
+  background: url(../image/rafael.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -7,34 +7,44 @@ html {
 }
 
 .content {
-	background-color: rgba(0, 0, 0, 0.7);
-	color: #ffffff;
+	background-color: rgba(161, 158, 157, 0.8);
+	color: #fdfdfd/*d8bab4*/;
 	padding: 50px;
-	height: 500px;
+	height:600px;
 	width: 500px;
+	text-align: center;
 	margin: 0 auto;
-	font-family: sans-serif, "FontAwesome";
+/*	font-weight: 500;
+*/
 }
 
 .profil div{
-	float: left;
+	float: center;
+	text-align: center;
 }
 
 .profile_pic {
-	margin: 20px;
-	margin-top: 50px;
-	height: 165px;
-	width: 165px;
-	border-radius: 30%;
+/*	margin: 20px;
+	margin-top: 20px;*/
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
 }
+
+
 
 .resume div{
-	float : left;
+	margin-top: 20px;
+	float : center;
+	text-align: center;
 }
 
-.logonlc {
-	margin: 40px;
-	margin-top: 70px; 
-	max-height: 150px;
-	max-width: 150px;
+.logo {
+	font-size: 40px;
+}
+.logo a {
+	color: #fdfdfd;
 }
